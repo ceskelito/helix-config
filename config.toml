@@ -5,10 +5,8 @@ theme = "dark_plus"  # dark_plus works well with hx --tutor.
 color-modes = true
 line-number = "relative"
 mouse = true
-bufferline = "multiple" # Show currently open buffers, only when more than one exists.
-cursorline = true # Highlight all lines with a cursor
-# Show a ruler at column 120
-#rulers = [120]
+bufferline = "multiple"
+cursorline = true
 
 [editor.indent-guides]
 render = true
@@ -20,6 +18,9 @@ select = "underline"
 
 [editor.statusline]
 left = ["mode", "spinner", "version-control", "file-name"]
+
+[editor.smart-tab]
+enable = false
 
 [keys.insert]
 esc = ["collapse_selection", "normal_mode"]
