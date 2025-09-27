@@ -1,3 +1,7 @@
 [[language]]
 name = "c"
+scope = "source.c"
+file-types = ["c", "h"]
+auto-format = true
 indent = { tab-width = 4, unit = "\t" }
+language-server = { command = "clangd" }
