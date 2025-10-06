@@ -1,5 +1,5 @@
 # github.com/x448/helix-config-toml
-theme = "dark_plus"  # dark_plus works well with hx --tutor.
+theme = "autumn"  # dark_plus works well with hx --tutor.
 
 [editor]
 color-modes = true
