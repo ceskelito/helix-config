@@ -4,7 +4,7 @@ scope = "source.c"
 injection-regex = "c"
 file-types = ["c", "h"]
 indent = { tab-width = 4, unit = "\t" }
-formatter = { command = "formatter"}
+formatter = { command = "python3", args = ["-m", "c_formatter_42"]}
 language-servers = [ "clangd" ]
 
 
